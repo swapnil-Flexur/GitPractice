@@ -33,7 +33,7 @@
     <label xml:lang="en">Address</label>
     <range_inclusive>0</range_inclusive>
     <readonly>0</readonly>
-    <sort_order>3850</sort_order>
+    <sort_order>3860</sort_order>
     <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
     <track_history>0</track_history>
     <name>stud_address</name>
