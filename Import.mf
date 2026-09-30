@@ -1,0 +1,5 @@
+<imports>
+  <package name="RequiredPackages" path="RequiredPackages\Import">
+    <dependson name="com.aras.innovator.solution.PLM" />
+  </package>
+</imports>

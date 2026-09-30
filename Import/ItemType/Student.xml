@@ -1,0 +1,242 @@
+﻿<AML>
+ <Item type="ItemType" id="57FF66ECAFEE45CB872A72A96536FACA" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <history_template keyed_name="Default" type="History Template">3BC16EF9E52B4F9792AB76BCE0492F29</history_template>
+  <implementation_type>table</implementation_type>
+  <instance_data>STUDENT</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>1</is_versionable>
+  <label xml:lang="en">Student</label>
+  <label_plural xml:lang="en">Students</label_plural>
+  <manual_versioning>0</manual_versioning>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tabs on</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <name>Student</name>
+  <Relationships>
+   
+   <Item type="Property" id="798E79A0B81E4DCB9425C1520BBA2B0A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>text</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Address</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3850</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <track_history>0</track_history>
+    <name>stud_address</name>
+   </Item>
+   <Item type="Property" id="BC5A4D60619A49C0B54CB5F488512ED4" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>float</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">CPI </label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <track_history>0</track_history>
+    <name>stud_cpi</name>
+   </Item>
+   <Item type="Property" id="0DB6556023BE49B8B7043C2BDC7F7635" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Student_Status">CC16AC4F268C487E9AEF4F9F4E0596DB</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Grade</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4352</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>stud_grade</name>
+   </Item>
+   <Item type="Property" id="C008983C8C65492DBCABF2A2A871F403" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <keyed_name_order>2</keyed_name_order>
+    <label xml:lang="en">Student name </label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>stud_name</name>
+   </Item>
+   <Item type="Property" id="82DC3FCAAB844CC5BC0380F9B3CF4C1C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <label xml:lang="en">Parent</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>stud_parent</name>
+   </Item>
+   <Item type="Property" id="AAB7FA6035684607948CC3A4D36E8408" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Percentage</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+    <name>stud_percentage</name>
+   </Item>
+   <Item type="Property" id="CBB971DF461D4A67805F23263A29DB2C" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Phone No.</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <track_history>0</track_history>
+    <name>stud_phoneno</name>
+   </Item>
+   <Item type="View" id="CB007020B55A443B8D3A0D47D4B97E93" action="add">
+    <client>js</client>
+    <related_id keyed_name="Student" type="Form">FEE61905894F4DA79EF789BECDACA928</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <show_ssvc>0</show_ssvc>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="ItemType Life Cycle" id="6D96609FCD64469CAC4B5AC91B89ED24" action="add">
+    <related_id keyed_name="Student Life Cycle" type="Life Cycle Map">D2305A16904541A985DD04D46A7800EE</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+   </Item>
+   <Item type="Allowed Workflow" id="CF50C0C389B8411A923BFE4012EA96E7" action="add">
+    <is_default>0</is_default>
+    <related_id keyed_name="Student workflow map" type="Workflow Map">9C00D04786D24B42AFCE149724496485</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+   </Item>
+   <Item type="TOC Access" id="E0843EBC5CC341B6A6BD6770FC686EBB" action="add">
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+   </Item>
+   <Item type="Can Add" id="D36D706C131C454784681971C42AE904" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+   </Item>
+   <Item type="Allowed Permission" id="5EF9FD230FC44F09B23EADEC91ACB251" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Student_Permissions" type="Permission">6C351556D96A41958AB5CD7205BD6E4B</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="ItemType" id="57FF66ECAFEE45CB872A72A96536FACA" action="edit">
+  <Relationships>
+   <Item type="Property" id="09A953FEAC134438BEAC932E2C6A971A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Student_RollNo">3F6ADF7E1A7E4902B090CD061F39826B</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>1</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Roll Number</label>
+    <pattern />
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <track_history>0</track_history>
+    <name>stud_rollno</name>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='57FF66ECAFEE45CB872A72A96536FACA' and name='superseded_date'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Superseded Date</label>
+    <pattern>short_date_time</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="Student" type="ItemType" name="Student">57FF66ECAFEE45CB872A72A96536FACA</source_id>
+    <track_history>0</track_history>
+    <name>superseded_date</name>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
